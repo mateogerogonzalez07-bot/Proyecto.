@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-DG</title>
+    <link rel="stylesheet" href="../Css/global.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/90bef08f06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       
+        <h1>
+             <nav class="photo">
+             <img src="../img/logo-DG.jpg" alt="">
+            </nav>
+        DG-Mantenimiento integral</h1>
+        <nav>
+            <ul>
+                <div class="Barra">
+                    <li><a href="index.html" ><i class="fa-solid fa-house fa-flip" style="color: rgb(28, 96, 214);"></i>Inicio</a></li>
+                    <li><a href="nosotros.html" ><i class="fa-solid fa-users fa-beat" style="color: rgb(116, 192, 252);"></i> Nosotros</a></li>
+                    <li><a href="proyectos.html" ><i class="fa-solid fa-table-list fa-fade" style="color: rgb(116, 192, 252);"></i>Proyectos</a></li>
+                    <li><a href="contacto.html" ><i class="fa-solid fa-envelope fa-bounce" style="color: rgb(255, 212, 59);"></i>Contacto</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main >
+     <form class="formulario">
+
+  <!-- Nombre -->
+  <div class="campo">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+  </div>
+
+  <!-- Apellido -->
+  <div class="campo">
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+  </div>
+
+  <!-- Email -->
+  <div class="campo">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="email">
+  </div>
+
+  <!-- Edad -->
+  <div class="campo">
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" min="1" max="100" placeholder="Edad">
+  </div>
+
+  <!-- Tipo de servicio (radio) -->
+  <div class="campo">
+    <label>Servicio</label>
+    <div>
+      <input type="radio" id="pintura" name="servicio" value="pintura"  placeholder="Pintura">
+      <label for="pintura">Pintura</label>
+
+      <input type="radio" id="electricidad" name="servicio" value="electricidad" placeholder="Electricidad">
+      <label for="electricidad">Electricidad</label>
+
+      <input type="radio" id="Construccion" name="servicio" value="Construccion" placeholder="Construccion">
+      <label for="Construccion">Construccion</label>
+
+      <input type="radio" id="Plomeria" name="servicio" value="Plomeria"  placeholder="Plomeria">
+      <label for="Plomeria">Plomeria</label>
+
+      <input type="radio" id="Singueria" name="servicio" value="Singueria" placeholder="Singueria">
+      <label for="Singueria">Singueria</label>
+
+    </div>
+  </div>
+
+  <!-- Mensaje -->
+  <div class="campo">
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje"></textarea>
+  </div>
+
+  <!-- Botones -->
+  <div class="botones">
+    <button type="reset" class="reset">Resetear</button>
+    <button type="submit" class="enviar">Enviar</button>
+  </div>
+
+</form>
+    </main>
+    
+    <footer>
+       
+        <ul>
+                <div class="barra2">
+                    <li><a href="#" ><i class="fa-solid fa-house fa-flip" style="color: rgb(28, 96, 214);"></i>Inicio</a></li>
+                    <li><a href="nosotros.html" ><i class="fa-solid fa-users fa-beat" style="color: rgb(116, 192, 252);"></i> Nosotros</a></li>
+                    <li><a href="proyectos.html" ><i class="fa-solid fa-table-list fa-fade" style="color: rgb(116, 192, 252);"></i>Proyectos</a></li>
+                    <li><a href="contacto.html" ><i class="fa-solid fa-envelope fa-bounce" style="color: rgb(255, 212, 59);"></i>Contacto</a></li> 
+                    <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+                </div>
+            </ul>
+            
+    </footer>
+</body>
+</html>
