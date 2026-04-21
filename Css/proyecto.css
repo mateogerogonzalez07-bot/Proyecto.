@@ -123,7 +123,7 @@ footer{
         width: 90%;
     }
 }
-@media (min-width: 0px) and (max-width: 400px){
+@media (min-width: 0px) and (max-width: 425px){
     header.Barra nav a{
         flex-direction: column;
     }
