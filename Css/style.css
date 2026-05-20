@@ -18,9 +18,8 @@ body{
     height: 50px;
     border-radius: 50%;
     border: 3px solid white;
-    text-align: center;
     background: rgb(151, 151, 214);
-    display: flex;
+   
 }
 
 header{
@@ -31,6 +30,7 @@ header{
     position: sticky;
     top: 0;
     width: 100%;
+    transform: translateY(-5px);
 }
 h1{
     font-family: "Montserrat", sans-serif;
@@ -45,7 +45,7 @@ h1{
     background-color: rgba(226, 233, 220, 0.538);
     flex-direction: row;
     list-style: none;
-    gap: 90px;
+    gap: 40px;
     padding: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;

@@ -50,13 +50,15 @@ main{
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgb(80, 80, 194);
-    font-family: 'Courier New', Courier, monospace;
+    background-color: steelblue;
+    font-size:larger;
     flex-wrap: wrap;
+    
 }
 .bloque:hover{
-   transform: translateY(-10px);
-   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+   transform: scale(1.06) translate(-4px);
+    transition: transform 0.8s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .bloque:focus{

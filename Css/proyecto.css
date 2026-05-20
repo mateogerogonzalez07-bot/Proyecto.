@@ -63,12 +63,12 @@ main{
 
 }
 .carousel-item img {
-    height: 60vh;
+    height: 35vh;
     margin: auto;
 
 }
 .d-block {
-    width: 60% !important;
+    width: 40% !important;
 }
 .carousel-item {
     position: relative;
