@@ -20,7 +20,6 @@ body{
     border-radius: 50%;
     border: 3px solid white;
     text-align: center;
-    background: rgb(151, 151, 214);
     display: flex;
 }
 
@@ -30,7 +29,7 @@ header{
     padding: 20px;
     text-align: center;
     position: sticky;
-
+    
     width: 100%;
 }
 h1{
@@ -40,19 +39,17 @@ h1{
     font-style: normal;
 }
 .Barra{
-    display: flex;
+   display: flex;
     justify-content: flex-start;
-    background-color: #333;
+    background-color: rgba(226, 233, 220, 0.538);
     flex-direction: row;
     list-style: none;
-    gap: 10px;
+    gap: 40px;
     padding: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;  
-    color: white;  
-    list-style: none;
 }
 nav a {
     color: white;
@@ -74,12 +71,13 @@ main{
     position: relative;
     display: none;
     float: left;
-    width: 90%;
+    width: 100%;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
     background-color: #333;
+    object-fit: cover;
 }
 
 .carousel-inner{
@@ -117,6 +115,7 @@ footer{
     text-align: center;
     background: #333;
     color: black;
+    
 }
 @media (min-width: 768px){
     .carousel-item img{

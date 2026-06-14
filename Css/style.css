@@ -158,6 +158,13 @@ main, footer{
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
+    display: inline-block;
+    width:auto;
+    margin: 12px auto;
+}
+.opaco{
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 .nombre{
     font-family: "Playfair Display SC", serif;
@@ -225,6 +232,21 @@ a::before{
     background-color: white;
     
 }
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0f9440;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.8s ease;
+}
+
 .barra2 {
     display: flex;
     background-color: #1E293B;

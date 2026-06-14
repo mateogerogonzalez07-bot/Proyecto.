@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -73,6 +72,19 @@ main{
    opacity: 0;
    transition: 0.3s;
    position: relative;
+}
+.ubicacion{
+    position: relative;
+    display: -webkit-inline-box;
+}
+.ubicacion::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,80,0.5);
+    opacity: 0;
+    transition: 0.3s;
+    position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
     .bloques{
