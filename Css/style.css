@@ -27,7 +27,7 @@ header{
     color: white;
     padding: 20px;
     text-align: center;
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     width: 100%;
     transform: translateY(-5px);
